@@ -1,4 +1,5 @@
-# GIT
+# CheatSheet des commandes
+## GIT
 
 - ```git config --global user.name "nom"``` : Définir le nom d'utilisateur
 - ```git config --global user.email "you@example.com"``` : Définir le mail
@@ -13,8 +14,8 @@
 - ```git push origin -d <branche>``` : Supprimer une branche remote
 - ```git config core.filemode false``` : Ignore chmod changes
 
-# LINUX
-## Global
+## LINUX
+### Global
 - ```chmod <777> <fichier>``` : Droits
 - ```man (-k) <sujet>``` : Doc
 - ```pwd```	Chemin
@@ -29,11 +30,11 @@
 - ```alias``` : Créer un alias
 - ```cp <fichier> <path/newFichier>``` : Dupliquer
 
-## Spécifique
+### Spécifique
 - ```update-alternatives --config php``` : Choisir version PHP
 - ```composer self-update --<version>``` : Changer version composer
 
-# WSL 
+## WSL 
 
 - ```wsl --install -d <DistroName>``` : Installation
 - ```wsl -l -o``` : Lister les distribs disponibles
@@ -44,7 +45,7 @@
 - ```wsl --shutdown``` : Arrêt
 - ```code .``` : Ouvrir VScode
 
-# Docker
+## Docker
 - ```docker ps``` : Lister les instances
 - ```docker-compose up|down -d (--build)``` : Monter le conteneur
 - ```docker start|stop``` : Démarrer / stopper le conteneur
