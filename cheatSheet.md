@@ -1,4 +1,4 @@
-## GIT
+# GIT
 
 Définir le nom d'utilisateur : ```git config --global user.name "nom"```
 Définir le mail : ```git config --global user.email "you@example.com"```
@@ -13,7 +13,7 @@ Supprimer une branche locale : ```git branch -d <branche>```
 Supprimer une branche remote : ```git push origin -d <branche>```
 Ignore chmod changes : ```git config core.filemode false```
 
-## LINUX ( TODO )
+# LINUX ( TODO )
 chmod 777 'fichier'			: Droits 
 man (-k) *sujet*			: Doc
 pwd							: Chemin
