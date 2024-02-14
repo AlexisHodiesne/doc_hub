@@ -1,35 +1,37 @@
 # GIT
 
-- ```git config --global user.name "nom"``` : Définir le nom d'utilisateur  
-- ```git config --global user.email "you@example.com"``` : Définir le mail  
-- ```git log --graph``` : Afficher le graphique de l'état des branches   
-- ```git fetch --all --prune``` : Mettre à jour les branches par rapport au remote  
-- ```git switch <branche>``` : Changer de branche  
-- ```git pull``` : Appliquer les mises à jour de la branche remote vers la locale  
-- ```git reset --hard origin/<branche>``` : Remettre la branche locale au même niveau que la remote  
-- ```git commit --amend --no-edit``` : Modifier un commit    
-- ```git commit --amend``` : Ajouter un commit rattaché au précédent  
-- ```git branch -d <branche>``` : Supprimer une branche locale  
-- ```git push origin -d <branche>``` : Supprimer une branche remote  
-- ```git config core.filemode false``` : Ignore chmod changes  
+- ```git config --global user.name "nom"``` *Définir le nom d'utilisateur*
+- ```git config --global user.email "you@example.com"``` *Définir le mail*
+- ```git log --graph``` *Afficher le graphique de l'état des branches*
+- ```git fetch --all --prune``` *Mettre à jour les branches par rapport au remote*
+- ```git switch <branche>``` *Changer de branche*
+- ```git pull``` *Appliquer les mises à jour de la branche remote vers la locale*
+- ```git reset --hard origin/<branche>``` *Remettre la branche locale au même niveau que la remote*
+- ```git commit --amend --no-edit``` *Modifier un commit*
+- ```git commit --amend``` *Ajouter un commit rattaché au précédent*
+- ```git branch -d <branche>``` *Supprimer une branche locale*
+- ```git push origin -d <branche>``` *Supprimer une branche remote*
+- ```git config core.filemode false``` *Ignore chmod changes*
 
-# LINUX ( TODO )
-- chmod 777 'fichier'			: Droits  
-- man (-k) *sujet*			: Doc  
-- pwd							: Chemin  
-- sudo *commande*				: commande root  
-- su *user*					: Se connecter  
-- ls (-l)						: Lister répertoire  
-- touch *nom*					: Créer fichier  
-- mkdir						: Créer dossier  
-- cat							: Lire fichier  
-- rm							: Supprimer  
-- grep						: Chercher   
-- alias						: Créer des alias   
-- cp *fichier* *path/nom*		: Copier  
+# LINUX
+## Global
+- ```chmod <777> <fichier>``` *Droits*
+- ```man (-k) <sujet>``` *Doc*
+- ```pwd```	*Chemin*
+- ```sudo <commande>```	*commande root*
+- ```su <user>``` *Se connecter*
+- ```ls (-l)```	*Lister répertoire*
+- ```touch <nom>```	*Créer fichier*
+- ```mkdir``` *Créer dossier*
+- ```cat```	*Lire fichier*
+- ```rm (-rf)``` *Supprimer*
+- ```grep``` *Chercher*
+- ```alias``` *Créer un alias*
+- ```cp <fichier> <path/newFichier>``` *Dupliquer*
 
-- update-alternatives --config php  	: Choisir version PHP
-- composer self-update --1/2 			: Changer version composer
+## Spécifique
+- ```update-alternatives --config php``` *Choisir version PHP*
+- ```composer self-update --<version>``` *Changer version composer*
 
 # WSL 
 
