@@ -16,6 +16,7 @@
 
 ## LINUX
 ### Global
+- ``` lsb_release -a``` : Informations sur la distribution linux
 - ```chmod <777> <fichier>``` : Droits
 - ```man (-k) <sujet>``` : Doc
 - ```pwd```	Chemin
