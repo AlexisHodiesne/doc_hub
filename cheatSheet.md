@@ -31,6 +31,7 @@
 - ```alias``` : Créer un alias
 - ```cp <fichier> <path/newFichier>``` : Dupliquer
 - ```mv <path> <destination_path>``` : Déplacer / renommer
+- ```diff <path_1> <path_2>``` : comparer
 
 ### Spécifique
 - ```update-alternatives --config php``` : Choisir version PHP
