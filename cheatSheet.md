@@ -30,7 +30,7 @@
 - ```grep``` : Chercher
 - ```alias``` : Créer un alias
 - ```cp <fichier> <path/newFichier>``` : Dupliquer
-- ```mv``` : Déplacer
+- ```mv <path> <destination_path>``` : Déplacer / renommer
 
 ### Spécifique
 - ```update-alternatives --config php``` : Choisir version PHP
