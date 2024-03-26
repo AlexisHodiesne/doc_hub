@@ -17,7 +17,11 @@
 ## LINUX
 ### Global
 - ```lsb_release -a``` : Informations sur la distribution linux
-- ```chmod <777> <fichier>``` : Droits
+- ```chmod <777>``` : Droits (User - Groupe - Other)
+  |**Valeur**| Droits      |**Valeur**| Droits      |**Valeur**| Droits      |**Valeur**| Droits      |
+  |----------|-------------|----------|-------------|----------|-------------|----------|-------------|
+  | **0**    | Aucun       | **1**    | Exec        | **2**    | Write       | **3**    | Write + Exec|
+  | **4**    | Read        | **5**    | Read + Exec | **6**    | Read + Write| **7**    | Tous        |
 - ```man (-k) <sujet>``` : Doc
 - ```pwd```	Chemin
 - ```sudo <commande>```	commande root
