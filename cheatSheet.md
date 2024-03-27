@@ -16,7 +16,6 @@
 
 ## LINUX
 ### Global
-- ```lsb_release -a``` : Informations sur la distribution linux
 - ```chmod <777>``` : Droits (User - Groupe - Other)
   |**Valeur**| Droits      |**Valeur**| Droits      |**Valeur**| Droits      |**Valeur**| Droits      |
   |----------|-------------|----------|-------------|----------|-------------|----------|-------------|
@@ -35,9 +34,13 @@
 - ```alias``` : Créer un alias
 - ```cp <fichier> <path/newFichier>``` : Dupliquer
 - ```mv <path> <destination_path>``` : Déplacer / renommer
-- ```diff <path_1> <path_2>``` : comparer
+- ```diff <path_1> <path_2>``` : Comparer
+- ````ls -l > fichier``` : Rediriger la sortie vers un fichier
+- ````ls -l >> fichier``` : Rediriger la sortie vers un fichier après son contenu
+- ````ls -l fichierInexistant 2> fichier``` : Rediriger l'erreur vers un fichier
 
 ### Spécifique
+- ```lsb_release -a``` : Informations sur la distribution linux
 - ```update-alternatives --config php``` : Choisir version PHP
 - ```composer self-update --<version>``` : Changer version composer
 
