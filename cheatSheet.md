@@ -3,6 +3,7 @@
 
 - ```git config --global user.name "nom"``` : Définir le nom d'utilisateur
 - ```git config --global user.email "you@example.com"``` : Définir le mail
+- ```git config --global pull.rebase true``` : Activer le rebase automatique au pull
 - ```git log --graph``` : Afficher le graphique de l'état des branches
 - ```git fetch --all --prune``` : Mettre à jour les branches par rapport au remote
 - ```git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d``` : Supprimer les branches locales supprimées de remote
