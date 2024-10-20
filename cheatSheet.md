@@ -5,6 +5,7 @@
 - ```git config --global user.email "you@example.com"``` : Définir le mail
 - ```git log --graph``` : Afficher le graphique de l'état des branches
 - ```git fetch --all --prune``` : Mettre à jour les branches par rapport au remote
+- ```git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d``` : Supprimer les branches locales supprimées de remote
 - ```git switch <branche>``` : Changer de branche
 - ```git pull``` : Appliquer les mises à jour de la branche remote vers la locale
 - ```git reset --hard origin/<branche>``` : Remettre la branche locale au même niveau que la remote
@@ -17,10 +18,10 @@
 ## LINUX
 ### Global
 - ```chmod <777>``` : Droits (User - Groupe - Other)
-  |**Valeur**| Droits      |**Valeur**| Droits      |**Valeur**| Droits      |**Valeur**| Droits      |
-  |----------|-------------|----------|-------------|----------|-------------|----------|-------------|
-  | **0**    | Aucun       | **1**    | Exec        | **2**    | Write       | **3**    | Write + Exec|
-  | **4**    | Read        | **5**    | Read + Exec | **6**    | Read + Write| **7**    | Tous        |
+  | **Valeur** | Droits | **Valeur** | Droits      | **Valeur** | Droits       | **Valeur** | Droits       |
+  | ---------- | ------ | ---------- | ----------- | ---------- | ------------ | ---------- | ------------ |
+  | **0**      | Aucun  | **1**      | Exec        | **2**      | Write        | **3**      | Write + Exec |
+  | **4**      | Read   | **5**      | Read + Exec | **6**      | Read + Write | **7**      | Tous         |
 - ```man (-k) <sujet>``` : Doc
 - ```pwd```	Chemin
 - ```sudo <commande>```	commande root
